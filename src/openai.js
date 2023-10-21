@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 const openai = new OpenAI({
-    apiKey: "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", dangerouslyAllowBrowser: true
+    apiKey: process.env.OPEN_AI_API;, dangerouslyAllowBrowser: true
   });
 //const { Configuration, OpenAIApi } = require('openai');
 //const configuration= new Configuration({ apiKey: "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"});
